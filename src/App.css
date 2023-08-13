@@ -1,0 +1,117 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  /* background-color: whitesmoke; */
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  width: 100vw;
+  
+}
+
+.input{
+  
+  display: flex;
+  gap: 4rem;
+  padding-top: 10px;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+
+}
+.input-group{
+  position: relative;
+  top: -5rem;
+}
+#button{
+  background-color: rgb(39, 185, 68);
+}
+#name,#description{
+  width: 400px;
+}
+
+
+.group{
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  
+}
+.button-group{
+  position: relative;
+  left:5%;
+  padding: 1rem;
+  display: inline-flex;
+  gap: 10%;
+}
+.button-group button{
+  width:100px
+}
+.button-group button:first-child{
+  background-color:#519c90;
+  
+}
+.button-group button:last-child{
+  background-color: rgb(165, 66, 66);
+  
+}
+.card{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  flex-wrap: wrap;
+  /* background-color: whitesmoke; */
+}
+.todo{
+  width: 350px;
+  background-color:#d1f4d8 ;
+  padding-top: 1rem;
+  text-align: left;
+  padding-left: 2rem;
+  border-radius: 10px;
+}
+#name:hover,#description:hover{
+  box-shadow:0 0 5px 5px gold;
+  
+  
+}
+
+select{
+  background-color: rgba(218, 94, 94, 0.594);
+}
+
+.filter{
+ position: relative;
+ display: flex;
+ justify-content: flex-end;
+ padding-right: 2rem;
+  
+}
+.app-title{
+  position: relative;
+  top: 5rem;
+  margin-left: 40vw;
+  color: #519c90;
+  padding-bottom: 2rem;
+}
+
+
+.card{
+  border: none;
+  padding-top: 3rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+form button{
+  width: 10rem;
+}
+
+.heading{
+  font-weight: bold;
+}
+form button:hover{
+  box-shadow: 0 0 5px 5px greenyellow;
+}
+.todo:hover{
+  box-shadow: 0 0 5px 5px #519c90;
+}
